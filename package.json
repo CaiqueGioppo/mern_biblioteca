@@ -2,14 +2,20 @@
   "name": "nodejs-sandbox",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "backend/server.js",
   "type": "module",
   "scripts": {
-    "start": "node --watch index.js"
+    "dev": "nodemon backend/server.js"
   },
   "keywords": [],
   "author": "Ives van Hoorne",
   "license": "MIT",
-  "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
