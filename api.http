@@ -17,5 +17,5 @@ GET {{baseUrl}}/books
 Content-Type: {{contentType}}
 
 ###
-GET {{baseUrl}}/books/substitua pelo id do seu livro no banco
+GET {{baseUrl}}/books/670546843438cc8d911a8248
 Content-Type: {{contentType}}

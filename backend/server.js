@@ -1,6 +1,7 @@
 //Rsskt440ofPY4GGU//
 import "dotenv/config";
 import express from "express";
+import mongoose from "mongoose";
 
 import { connectToDatabase } from "./config/db.js";
 import { Book } from "./model/book.model.js";
