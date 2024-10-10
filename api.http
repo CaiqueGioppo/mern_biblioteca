@@ -25,8 +25,10 @@ PUT {{baseUrl}}/books/670546843438cc8d911a8248
 Content-Type: {{contentType}}
 
 {
-  "subtitle": "As Duas Torres",
-  "cover": "https://harpercollins.com.br/cdn/shop/products/9786555113624_84e92bc9-fe5b-4d2c-9c79-5d2153540499.jpg"
+  "title": "The Boys In The Tree (Os Garotos Nas Árvores)",
+    "author": "Nicholas Verso",
+    "genre": "Fantasy Drama",
+    "cover": "https://en.wikipedia.org/wiki/Boys_in_the_Trees_%28film%29#/media/File:Boys_in_the_Trees_(film).jpg"
 }
 
 ###
