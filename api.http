@@ -19,3 +19,16 @@ Content-Type: {{contentType}}
 ###
 GET {{baseUrl}}/books/670546843438cc8d911a8248
 Content-Type: {{contentType}}
+
+###
+PUT {{baseUrl}}/books/670546843438cc8d911a8248
+Content-Type: {{contentType}}
+
+{
+  "subtitle": "As Duas Torres",
+  "cover": "https://harpercollins.com.br/cdn/shop/products/9786555113624_84e92bc9-fe5b-4d2c-9c79-5d2153540499.jpg"
+}
+
+###
+DELETE {{baseUrl}}/books/substitua pelo id do seu livro no banco
+Content-Type: {{contentType}}
