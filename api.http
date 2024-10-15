@@ -1,4 +1,4 @@
-@host = http://localhost:5000
+@host = http://localhost:3000
 @baseUrl = {{host}}/api/v1
 @contentType = application/json
 
@@ -21,7 +21,7 @@ GET {{baseUrl}}/books/670546843438cc8d911a8248
 Content-Type: {{contentType}}
 
 ###
-PUT {{baseUrl}}/books/670546843438cc8d911a8248
+PUT {{baseUrl}}/books/670e759039e24c60e442462b
 Content-Type: {{contentType}}
 
 {
@@ -33,5 +33,5 @@ Content-Type: {{contentType}}
 }
 
 ###
-DELETE {{baseUrl}}/books/substitua pelo id do seu livro no banco
+DELETE {{baseUrl}}/books/670546843438cc8d911a8248
 Content-Type: {{contentType}}
