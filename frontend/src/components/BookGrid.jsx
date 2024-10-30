@@ -2,7 +2,7 @@ import Grid from "@mui/material/Unstable_Grid2";
 import { Button, Container, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 
-import BookCard from "./BookCard";
+import BookCard from "./BookCards";
 import { useBooks } from "../lib/queries";
 import BookCardSkeleton from "./BookCardSkeleton";
 
